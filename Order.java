@@ -41,7 +41,7 @@ public class Order extends OrderItem {
 	public double cost() {
 		double totalCost = 0;
 		for (int i = 0; i < items.length; i++) {
-			totalCost += getP().getPrice() * getQuality();
+			totalCost += items[i].getP().getPrice() * items[i].getQuality();
 		}
 		return totalCost;
 	}
