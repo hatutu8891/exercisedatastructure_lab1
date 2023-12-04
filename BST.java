@@ -353,7 +353,7 @@ public class BST<E extends Comparable<E>> {
 		// This is the testcase of add method to add a collections
 		// Create the new tree to add a list on.
 		BST<Integer> tree1 = new BST<Integer>();
-		Collection<Integer> list = new ArrayList<>();
+		Collection<Integer> list = new HashSet<>();
 		list.add(5);
 		list.add(8);
 		list.add(9);
